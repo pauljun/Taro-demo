@@ -1,0 +1,63 @@
+.login-wrapper{
+    height: 100%;
+    background-color: #446FE9;
+    background-size: contain;
+    .title{
+        font-size: 68rpx;
+        color: #fff;
+        height: 160rpx;
+        line-height: 160rpx;
+        margin-left: 60rpx;
+    }
+    .content{
+        height: calc(100% - 160rpx);
+        background: #fff;
+        border-radius: 60rpx 60rpx 0 0;
+        .pdc{
+            color: #C6C9CD;
+        }
+        .item{
+            position: relative;
+            margin: 0 60rpx 20rpx 60rpx;
+            padding-top: 40rpx;
+            .t{
+                color: #C6C9CD;
+                font-size: 24rpx;
+                position: absolute;
+                left: 0;
+                top: 0;
+            }
+        }
+        .form{
+            padding-top: 60rpx;
+        }
+        input{
+            height: 100rpx;
+            border-bottom: 1px solid #E6E7E9;
+            font-size: 36rpx;
+        }
+        button{
+            height: 96rpx;
+            line-height: 96rpx;
+            background: #446FE9;
+            border-radius: 4px 4px;
+            padding: 0;
+            overflow: hidden;
+            color: #fff;
+            font-size: 32rpx;
+            margin: 120rpx 40rpx 0 40rpx;
+        }
+        .err{
+            text{
+                color: #E62222;
+                font-size: 24rpx;
+                line-height: 40rpx;
+                text-align: right;
+                position: absolute;
+                right: 40rpx;
+                bottom: -60rpx;
+                line-height: 40rpx;
+            }
+        }
+    }
+}

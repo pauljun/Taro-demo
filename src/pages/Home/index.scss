@@ -1,0 +1,32 @@
+.home-wrapper{
+    background: #3b5eef;
+    height: 100%;
+    position: relative;
+    .title{
+        font-size: 68rpx;
+        color: #fff;
+        line-height: 92rpx;
+        padding-left: 60rpx;
+    }
+    navigator{
+        width: 180rpx;
+        height: 92rpx;
+        line-height: 92rpx;
+        font-size: 32rpx;
+        margin: 30rpx 0 0 60rpx;
+        color: #fff;
+        border-radius: 50rpx;
+        background: #5682ff;
+        text-align: center;
+        z-index: 1;
+        position: relative;
+    }
+    image{
+        width: 730rpx;
+        height: 1124rpx;
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 0;
+    }
+}

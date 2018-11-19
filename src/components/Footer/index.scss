@@ -1,0 +1,25 @@
+.footer-wrapper{
+    height: 100rpx;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    z-index: 5;
+    text-align: center;
+    background: #fff;
+    navigator{
+        float: left;
+        width: 50%;
+        font-size: 20rpx;
+        color: #A0ACC0;
+        image{
+            width: 60rpx;
+            height: 60rpx;
+            display: block;
+            margin: 0 auto;
+        }
+        view{
+            height: 40rpx;
+        }
+    }
+}

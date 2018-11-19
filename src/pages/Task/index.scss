@@ -1,0 +1,92 @@
+.working-wrapper{
+    height: 100%;
+    .swiper{
+        height: calc(100% - 100rpx);
+    }
+    .list{
+        height: calc(100% - 30rpx);
+        padding-top: 15rpx;
+        overflow-y: auto;
+        navigator{
+            line-height: 112rpx;
+            padding: 0 40rpx;
+            margin: 20rpx;
+            margin-top: 30rpx;
+            border: 1px solid #F1F1F6;
+            &:active{
+                background: #EEF4F8;
+            }
+            .name{
+                color: #657D95;
+                font-size: 28rpx;
+            }
+            text{
+                float: right;
+                font-size: 24rpx;
+                &::before{
+                    display: inline-block;
+                    content: " ";
+                    width: 12rpx;
+                    height: 12rpx;
+                    border-radius: 50% 50%;
+                    margin-right: 12rpx;
+                }
+            }
+            .s{
+                color: #6BC57B;
+                &:before{
+                    background: #6BC57B;
+                }
+            }
+            .f{
+                color: #FF2244; 
+                &:before{
+                    background: #FF2244;
+                    margin-right: 36rpx;
+                }
+            }
+            .n{
+                color: #CFD7DB;
+                &:before{
+                    background: #CFD7DB;
+                }
+            }
+        }
+    }
+    .no-data{
+        font-size: 32rpx;
+        color: #999;
+        text-align: center;
+        line-height: 160rpx;
+    }
+}
+
+.task-nav-wrapper{
+    font-size: 40rpx;
+    line-height: 100rpx;
+    height: 100rpx;
+    padding: 0 30rpx;
+    overflow: hidden;
+    view{
+        vertical-align: middle;
+        position: relative;
+        float: left;
+    }
+    .line{
+        color: #E6E6EA;
+        margin: 0 30rpx;
+        font-size: 32rpx;
+    }
+    .active{
+        &:after{
+            position: absolute;
+            height: 6rpx;
+            width: 84rpx;
+            background: #445EE9;
+            content: ' ';
+            bottom: 0;
+            left: 50%;
+            margin-left: -41rpx;
+        }
+    }
+}

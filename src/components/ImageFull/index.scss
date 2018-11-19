@@ -1,0 +1,26 @@
+.image-list-wrapper{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 999999;
+    overflow: hidden;
+    background: rgba($color: #000000, $alpha: 1);
+    top: 0;
+    left: 0;
+    swiper{
+        width: 100%;
+        height: 100%;
+        .item{
+            height: 500rpx;
+            position: absolute;
+            left: 0;
+            width: 100%;
+            top: 50%;
+            margin-top: -250rpx;
+            image{
+                width: 100%;
+                height: 100%;
+            }
+        }
+    }
+}

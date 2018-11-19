@@ -1,0 +1,23 @@
+.video-wrapper{
+    height: 100%;
+    position: relative;
+    .status{
+        position: absolute;
+        z-index: 8;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translate(-50%, -50%);
+        padding: 10rpx 20rpx;
+        background: rgba($color: #000000, $alpha: 0.5);
+        color: #fff;
+    }
+    .full-icon{
+        position: absolute;
+        width: 48rpx;
+        height: 48rpx;
+        z-index: 100;
+        right: 20rpx;
+        bottom: 20rpx;
+    }
+}
